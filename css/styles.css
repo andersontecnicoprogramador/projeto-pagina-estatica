@@ -13,11 +13,11 @@ textarea {
 }
 
 body {
-  background-color: #f7f7f7;
+  background-color:#121212;
 }
 
 header {
-  background-color: #fff;
+  background-color:#121212;
   height: 80px;
 
 }
@@ -38,7 +38,7 @@ header #navbar .nav-brand {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #333;
+  color: #fff;
 }
 
 header #navbar .nav-list {
@@ -51,7 +51,7 @@ header #navbar .nav-list {
 
 header #navbar .nav-list .nav-item a {
  text-decoration: none;
- color: #333; 
+ color: #fff; 
  font-size: 20px;
  font-weight: 500;
 }
@@ -96,6 +96,7 @@ main #banner .banner-content .banner-content-title {
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 40px;
+  color: #fff;
 }
 
 main #banner .banner-content .banner-content-subtitle {
@@ -104,10 +105,11 @@ main #banner .banner-content .banner-content-subtitle {
   line-height: 24px;
   max-width: 500px;
   margin-bottom: 38px;
+  color: #fff;
 }
 
 main #banner .banner-content .banner-content-btn {
-  background-color: #00A8CC;
+  background-color: #07bc0c;
   color: white;
   font-size: 20px;
   font-weight: 500;
@@ -120,6 +122,7 @@ main #banner .banner-image {
   border-radius: 50%;
   width: 100%;
   max-width: 300px;
+  border: 2px solid #07bc0c;
 }
 
 @media(max-width:920px){
@@ -136,13 +139,14 @@ main #banner .banner-image {
 /*Section post*/
 section#posts {
   margin-top: 71px;
-  background-color: #edf7fa;
+  background-color: #121212;
 }
 
 #posts .posts-content {
   padding: 0 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  color: #fff;
 }
 
 #posts .posts-content .posts-content-header {
@@ -150,6 +154,7 @@ section#posts {
   justify-content: space-between;
   align-items: center;
   padding:2rem 0;
+  color: #fff;
 }
 
 #posts .posts-content .posts-content-header .section-title {
@@ -159,13 +164,14 @@ section#posts {
 
 #posts .posts-content .posts-content-header .view-all-link {
   text-decoration: none;
-  color: #00a8cc;
+  color: #fff;
 }
 
 #posts .posts-content .posts-cards {
   display: flex;
   gap: 20px;
   margin-bottom: 2rem;
+  color: #121212;
 }
 
 #posts .posts-content .posts-cards .post-card {

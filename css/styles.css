@@ -38,7 +38,7 @@ header #navbar .nav-brand {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 700;
-  color: #fff;
+  color: #07bc0c;
 }
 
 header #navbar .nav-list {
@@ -51,9 +51,10 @@ header #navbar .nav-list {
 
 header #navbar .nav-list .nav-item a {
  text-decoration: none;
- color: #fff; 
+ color: #07bc0c; 
  font-size: 20px;
  font-weight: 500;
+
 }
 
 header #navbar .nav-list .nav-item a:hover {
@@ -96,7 +97,7 @@ main #banner .banner-content .banner-content-title {
   font-weight: 700;
   line-height: 60px;
   margin-bottom: 40px;
-  color: #fff;
+  color: #07bc0c;
 }
 
 main #banner .banner-content .banner-content-subtitle {
@@ -106,6 +107,7 @@ main #banner .banner-content .banner-content-subtitle {
   max-width: 500px;
   margin-bottom: 38px;
   color: #fff;
+  
 }
 
 main #banner .banner-content .banner-content-btn {
@@ -113,9 +115,10 @@ main #banner .banner-content .banner-content-btn {
   color: white;
   font-size: 20px;
   font-weight: 500;
-  border-radius: 2px;
+  border-radius: 10px;
   padding: 8px 24px;
   border: none;
+  /* border: 1px solid red; */
 }
 
 main #banner .banner-image {
